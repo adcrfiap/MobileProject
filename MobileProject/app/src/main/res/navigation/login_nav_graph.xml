@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="br.com.fiap.mobileproject.presentation.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_signUPFragment"
+            app:destination="@id/signUPFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUPFragment"
+        android:name="br.com.fiap.mobileproject.presentation.signup.SignUPFragment"
+        android:label="fragment_sign_u_p"
+        tools:layout="@layout/fragment_sign_u_p" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="br.com.fiap.mobileproject.presentation.about.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

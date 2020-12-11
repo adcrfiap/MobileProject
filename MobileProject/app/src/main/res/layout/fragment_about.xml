@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.about.AboutFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Version 1.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="375dp"
+            android:layout_height="201dp"
+            android:layout_marginTop="64dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat lobortis imperdiet. Aenean sagittis sodales justo, sit amet sagittis orci tincidunt quis. Mauris bibendum, lacus eget ultrices rhoncus, elit nulla tempus justo, et pretium sem magna id nisl. Integer hendrerit lacus eget urna dapibus tempus. Morbi vitae suscipit augue. Nullam pulvinar dui et risus ultricies faucibus. Nunc semper, mi at laoreet aliquet, tortor lectus sollicitudin quam, non vehicula risus ligula vitae enim. Curabitur finibus libero vitae magna malesuada eleifend. Aliquam erat volutpat. Mauris pretium mattis pulvinar. Vestibulum mi felis, condimentum non turpis at, aliquam facilisis lorem."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <Button
+            android:id="@+id/btBackAbout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="BACK"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.signup.SignUPFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/etNameSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="128dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/etNameSignUp"
+            app:layout_constraintStart_toStartOf="@+id/etNameSignUp" />
+
+        <EditText
+            android:id="@+id/etEmailSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/etNameSignUp"
+            app:layout_constraintStart_toStartOf="@+id/etNameSignUp"
+            app:layout_constraintTop_toBottomOf="@+id/etNameSignUp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/etEmailSignUp"
+            app:layout_constraintStart_toStartOf="@+id/etEmailSignUp" />
+
+        <EditText
+            android:id="@+id/etPhoneSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/etEmailSignUp"
+            app:layout_constraintStart_toStartOf="@+id/etEmailSignUp"
+            app:layout_constraintTop_toBottomOf="@+id/etEmailSignUp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/etPhoneSignUp"
+            app:layout_constraintStart_toStartOf="@+id/etPhoneSignUp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CNPJ"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/etCNPJSignUp"
+            app:layout_constraintStart_toStartOf="@+id/etCNPJSignUp" />
+
+        <EditText
+            android:id="@+id/etCNPJSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/etPhoneSignUp"
+            app:layout_constraintStart_toStartOf="@+id/etPhoneSignUp"
+            app:layout_constraintTop_toBottomOf="@+id/etPhoneSignUp" />
+
+        <EditText
+            android:id="@+id/etPasswordSignUP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="@+id/etCNPJSignUp"
+            app:layout_constraintStart_toStartOf="@+id/etCNPJSignUp"
+            app:layout_constraintTop_toBottomOf="@+id/etCNPJSignUp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/etPasswordSignUP"
+            app:layout_constraintStart_toStartOf="@+id/etPasswordSignUP" />
+
+        <Button
+            android:id="@+id/btCreateAccount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Create Account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etPasswordSignUP" />
+
+        <Button
+            android:id="@+id/btBackSignup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btCreateAccount" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
