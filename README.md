@@ -10,4 +10,5 @@
 * Ativar o Cloud Firestore
 
 ### Android Studio
-* Dentro do Androi Studio, na barra de ferramentas, navegar para Tools->Firebase para conectar a sua conta do firebase
+* Dentro do Android Studio, na barra de ferramentas, navegar para Tools->Firebase para conectar a sua conta do firebase
+* Executar aplicação
