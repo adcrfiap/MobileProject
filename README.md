@@ -10,7 +10,7 @@
 * Ativar o Cloud Firestore
 
 ### Android Studio
-* Necessario comentar as linhas abaixo que estão no arquivo build.gradle
+* Necessario comentar as linhas abaixo que estão no arquivo build.gradle  
     implementation 'com.google.firebase:firebase-auth:20.0.0'
     implementation 'com.google.firebase:firebase-firestore-ktx:22.0.0'
 * Executar o build do projeto    
