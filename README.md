@@ -11,7 +11,7 @@
 
 ### Android Studio
 * Necessario comentar as linhas abaixo que estão no arquivo build.gradle  
-    implementation 'com.google.firebase:firebase-auth:20.0.0'
+    implementation 'com.google.firebase:firebase-auth:20.0.0'  
     implementation 'com.google.firebase:firebase-firestore-ktx:22.0.0'
 * Executar o build do projeto    
 * Na barra de ferramentas, navegar para Tools->Firebase para conectar a sua conta do firebase
