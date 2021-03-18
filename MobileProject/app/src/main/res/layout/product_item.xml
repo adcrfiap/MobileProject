@@ -23,7 +23,7 @@
         android:layout_marginStart="32dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Value $"
+        android:text="@string/value"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +38,7 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvid"
-        tools:text="Produto" />
+        tools:text="@string/product" />
 
     <TextView
         android:id="@+id/editTextTextPersonName"
@@ -48,7 +48,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Quantity"
+        android:text="@string/quantity"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"

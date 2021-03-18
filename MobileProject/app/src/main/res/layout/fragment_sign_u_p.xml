@@ -28,7 +28,7 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name"
+            android:text="@string/name"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/etNameSignUp"
             app:layout_constraintStart_toStartOf="@+id/etNameSignUp" />
@@ -48,7 +48,7 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Email"
+            android:text="@string/email"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/etEmailSignUp"
             app:layout_constraintStart_toStartOf="@+id/etEmailSignUp" />
@@ -68,7 +68,7 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Phone"
+            android:text="@string/phone"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/etPhoneSignUp"
             app:layout_constraintStart_toStartOf="@+id/etPhoneSignUp" />
@@ -77,7 +77,7 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CNPJ"
+            android:text="@string/personId"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/etCNPJSignUp"
             app:layout_constraintStart_toStartOf="@+id/etCNPJSignUp" />
@@ -108,7 +108,7 @@
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Password"
+            android:text="@string/password"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/etPasswordSignUP"
             app:layout_constraintStart_toStartOf="@+id/etPasswordSignUP" />
@@ -118,7 +118,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Create Account"
+            android:text="@string/btnCreateAccount"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/etPasswordSignUP" />
@@ -128,7 +128,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Back"
+            android:text="@string/btnBack"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btCreateAccount" />
