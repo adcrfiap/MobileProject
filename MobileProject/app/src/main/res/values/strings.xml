@@ -15,7 +15,7 @@
     <string name="quantity">Quantity</string>
     <string name="value">Value $</string>
 
-    <string name="homeText">Product Panel</string>
+    <string name="homeText">Home</string>
     <string name="addText">Add Product</string>
     <string name="listText">List Product</string>
     <string name="updateText">Update Product</string>
